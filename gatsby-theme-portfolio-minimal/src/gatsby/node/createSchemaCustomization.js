@@ -79,6 +79,7 @@ module.exports = ({ actions }) => {
         buymeacoffee: String
     }
     type Logo {
+        image: String
         text: String
     }
     type NavigationItem {

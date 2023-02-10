@@ -8,6 +8,7 @@ export interface SiteConfiguration {
         useDarkModeBasedOnUsersPreference: boolean;
     };
     logo: {
+        image: string;
         text: string;
     };
     navigation: {
@@ -43,6 +44,7 @@ export const query = graphql`
                         useDarkModeBasedOnUsersPreference
                     }
                     logo {
+                        image
                         text
                     }
                     navigation {

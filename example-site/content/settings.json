@@ -20,7 +20,7 @@
         }
     },
     "siteConfiguration": {
-        "logo": { "text": "Gatsby" },
+        "logo": { "image": "https://staticg.sportskeeda.com/editor/2022/06/f53e6-16560608039433-1920.jpg", "text": "Gatsby" },
         "navigation": {
             "header": [
                 { "label": "About", "url": "/#about" },
